@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout3</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./style/all.css" />
+  </head>
+  <body>
+    <nav class="nav-container flex">
+      <img class="dehaze-img" src="./images/dehaze-24px.png" alt="dehaze" />
+      <div class="nav-logo flex">
+        <img
+          class="nav-logo1 mr8"
+          src="./images/logo-dark.svg"
+          alt="logo-dark"
+        />
+        <img
+          class="nav-logo2"
+          src="./images/logotype-lg-dark.svg"
+          alt="logotype-lg-dark"
+        />
+      </div>
+      <div class="nav flex">
+        <a class="fz16 lh12 fw600 mr60 text-green2" href="/index.html">首頁</a>
+        <a class="fz16 lh12 fw600 mr60 text-green2" href="/product.html"
+          >甜點</a
+        >
+        <a class="fz16 lh12 fw600 mr60 text-green2" href="/login.html">登入</a>
+        <a href="shoppingcart.html">
+          <img
+            class="shopping-cart-images"
+            src="images/shopping_cart.png"
+            alt="shopping-cart"
+          />
+        </a>
+      </div>
+      <img
+        class="shopping-cart"
+        src="./images/shopping_cart.png"
+        alt="shopping-cart"
+      />
+    </nav>
+    <main class="checkout3-container flex">
+      <div class="main-item1">
+        <div class="shipping-info">
+          <div class="shipping-title flex">
+            <h2 class="fz36 text-white fw600 chinese-font">發票</h2>
+            <div class="shipping-img flex">
+              <span class="material-symbols-outlined"> check_circle </span>
+              <span class="material-symbols-outlined"> check_circle </span>
+              <span class="material-icons"> radio_button_checked </span>
+            </div>
+          </div>
+          <div class="shipping-name flex">
+            <div class="shipping-lastname flex">
+              <div class="text-container flex">
+                <a class="fz20 chinese-font text-green" href="#">電子發票</a>
+              </div>
+            </div>
+            <div class="invoice-container">
+              <div class="text-container flex">
+                <a
+                  class="fz20 chinese-font text-white"
+                  href="./checkout3-1.html"
+                  >郵寄發票</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="shipping-email flex-col">
+            <h2 class="fz20 text-white chinese-font lh14">電子郵件信箱</h2>
+            <div class="text-container-row flex">
+              <div class="text-container flex">
+                <div class="address2 flex">
+                  <input placeholder="example@email.com" type="text" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shipping-email flex-col">
+            <h2 class="fz20 text-white chinese-font lh14">統一編號（選填）</h2>
+            <div class="text-container-row flex">
+              <div class="text-container flex">
+                <div class="address2 flex">
+                  <input placeholder="12345678" type="text" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nextstep-btn flex">
+          <a
+            class="text-green chinese-font fz20 lh14 fw900"
+            href="checkout3-1.html"
+            >確認結帳</a
+          >
+        </div>
+      </div>
+      <div class="main-item2 flex-col">
+        <div class="shoppingcart-main-item2">
+          <div class="item2-container">
+            <p class="fz24 chinese-font text-green2 lh12">訂單摘要</p>
+            <div class="item2-descr">
+              <div class="item2-total flex">
+                <h3 class="fz16 chinese-font lh14 fw300 text-green2">小計</h3>
+                <h3 class="fz16 chinese-font lh14 text-green2">NT$ 2,700</h3>
+              </div>
+              <div class="item2-shippingcost flex">
+                <h3 class="fz16 chinese-font lh14 text-green2">運費</h3>
+                <h3 class="fz16 chinese-font lh14 text-green2">NT$ 300</h3>
+              </div>
+              <div class="item2-sum flex">
+                <h3 class="fz20 chinese-font lh14 text-green2">總計</h3>
+                <h3 class="fz20 chinese-font lh14 text-green2">NT$ 3,000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shoppingcart-main-item1">
+          <div class="shoppingcart-title fz24 chinese-font flex">
+            <h2 class="lh14 fw900 text-green2">購物清單</h2>
+          </div>
+          <div class="shoppingcart-item-container">
+            <div class="shoppingcart-item flex">
+              <img
+                class="dessert-img"
+                src="./images/photo-1504855328839-2f4baf9e0fd7.webp"
+                alt="dessert-img1"
+              />
+              <div class="shoppingcart-quantity flex">
+                <div class="quantity-item1 flex-col">
+                  <h3 class="chinese-font text-green2 fz16 lh14">
+                    焦糖馬卡龍（2）
+                  </h3>
+                  <p class="chinese-font text-green2 fz20 lh14">NT$ 900</p>
+                </div>
+              </div>
+            </div>
+            <div class="shoppingcart-item flex">
+              <img
+                class="dessert-img"
+                src="./images/section-item2.webp"
+                alt="dessert-img1"
+              />
+              <div class="shoppingcart-quantity flex">
+                <div class="quantity-item1 flex-col">
+                  <h3 class="chinese-font text-green2 fz16 lh14">
+                    焦糖馬卡龍（2）
+                  </h3>
+                  <p class="chinese-font text-green2 fz20 lh14">NT$ 900</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="shoppingcart-item flex">
+              <img
+                class="dessert-img"
+                src="./images/photo-1464305795204-6f5bbfc7fb81.webp"
+                alt="dessert-img1"
+              />
+              <div class="shoppingcart-quantity flex">
+                <div class="quantity-item1 flex-col">
+                  <h3 class="chinese-font text-green2 fz16 lh14">
+                    焦糖馬卡龍（2）
+                  </h3>
+                  <p class="chinese-font text-green2 fz20 lh14">NT$ 900</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer1">
+      <section class="footer-subscribe-section bg-green flex">
+        <div class="footer-subscribe-front flex">
+          <img
+            class="footer-subscribe-img mr20"
+            src="./images/logo-light.svg"
+            alt="logo-light"
+          />
+          <p class="chinese-font text-white fz24">訂閱你我的甜蜜郵件</p>
+        </div>
+        <div class="footer-subscribe-back flex">
+          <div class="footer-subscribe-email flex">
+            <img class="mr20" src="./images/mail-24px.png" alt="mail" />
+            <input type="email" name="email" class="footer-subscribe-input" />
+          </div>
+
+          <div class="footer-subscribe-enter flex">
+            <img src="./images/arrow_forward-24px.png" alt="arrow-forward" />
+          </div>
+        </div>
+      </section>
+
+      <!-- footer-section -->
+      <section class="footer-section">
+        <div class="footer-intro-container flex">
+          <div class="footer-intro flex-col">
+            <img src="./images/logotype-lg-dark.svg" alt="logotype-lg-dark" />
+            <div>
+              <p class="fz16 chinese-font text-green">07-1234-5678</p>
+              <p class="fz16 chinese-font text-green lh15">
+                sweetaste@email.com
+              </p>
+              <p class="fz16 chinese-font text-green">
+                800 高雄市新興區幸福路 520 號
+              </p>
+            </div>
+          </div>
+          <div class="footer-intro-img">
+            <img src="./images/sm-今天是個吃甜點的好日子.svg" alt="gooday" />
+          </div>
+        </div>
+
+        <div class="footer-copyright-container flex">
+          <div class="flex">
+            <img class="mr8" src="./images/ic-line@.svg" alt="images-line" />
+            <img src="./images/ic-facebook.svg" alt="images-facebook" />
+          </div>
+          <p class="chinese-font text-green fz16 flex">
+            © 2018 Sweetaste* All Rights Reserved
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

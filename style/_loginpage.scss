@@ -1,0 +1,144 @@
+.loginpage-container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+
+  .loginpage-item1 {
+    max-width: 39rem;
+    // height: 38rem;
+    .loginpage-userinput {
+      padding: 3rem 3rem 0 3rem;
+      box-sizing: border-box;
+      width: 100%;
+      background-color: #3f5d45;
+      h2 {
+        color: #eaf0ed;
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+      }
+      .userlogin-input {
+        background-color: #eaf0ed;
+        height: 5.6rem;
+        max-width: 33rem;
+        align-items: center;
+        padding-left: 2rem;
+        margin-bottom: 2rem;
+
+        input {
+          border: none;
+          background-color: #eaf0ed;
+          width: 27rem;
+          height: 3rem;
+          &::placeholder {
+            color: #8da291;
+          }
+        }
+        .login-icon {
+          color: #3f5d45;
+          height: 2.4rem;
+          margin-right: 2rem;
+        }
+      }
+    }
+    .loginpage-weblink-mobile {
+      display: none;
+      box-sizing: border-box;
+      padding: 3rem;
+      background-color: #eaf0ed;
+      height: 11.7rem;
+      align-items: center;
+
+      .loginpage-weblink-container {
+        align-content: center;
+        width: 100%;
+        .loginpage-weblink-item {
+          width: 33.333%;
+          align-items: center;
+          justify-content: center;
+          background-color: #fff;
+          height: 5.6rem;
+          .facebook-logo {
+            height: 1.6rem;
+          }
+          .google-logo {
+            height: 2.7rem;
+          }
+          .yahoo-logo {
+            height: 1.55rem;
+          }
+        }
+      }
+    }
+    .login-record {
+      align-items: center;
+      padding-bottom: 2.5rem;
+      p {
+        color: #eaf0ed;
+        margin-left: 0.8rem;
+      }
+    }
+
+    .loginpage-loginbtn {
+      height: 6.5rem;
+      width: 100%;
+      background-color: #ffe180;
+      border: none;
+      color: #3f5d45;
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+  }
+  .loginpage-item2 {
+    box-sizing: border-box;
+    max-width: 39rem;
+    height: 35rem;
+    background-color: #eaf0ed;
+    padding: 4rem 3rem;
+    h2 {
+      color: #8da291;
+      text-align: center;
+      margin-bottom: 3.6rem;
+    }
+    .loginplatform-logo {
+      width: 33rem;
+      height: 5.6rem;
+      background-color: #ffffff;
+      margin-bottom: 1.6rem;
+      justify-content: center;
+      align-items: center;
+      .img-facebook {
+        height: 2rem;
+      }
+      .img-google {
+        height: 3.1rem;
+      }
+      .img-yahoo {
+        height: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .loginpage-container {
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    .loginpage-item1 {
+      width: 100%;
+      max-width: 100rem;
+      .loginpage-userinput {
+        .userlogin-input {
+          max-width: 100rem;
+        }
+      }
+      .loginpage-weblink-mobile {
+        display: block;
+      }
+    }
+    .loginpage-item2 {
+      display: none;
+    }
+  }
+}

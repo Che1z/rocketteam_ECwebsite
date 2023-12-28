@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-page</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="./style/all.css" />
+  </head>
+  <body>
+    <nav class="nav-container flex">
+      <img class="dehaze-img" src="./images/dehaze-24px.png" alt="dehaze" />
+      <div class="nav-logo flex">
+        <img
+          class="nav-logo1 mr8"
+          src="./images/logo-dark.svg"
+          alt="logo-dark"
+        />
+        <img
+          class="nav-logo2"
+          src="./images/logotype-lg-dark.svg"
+          alt="logotype-lg-dark"
+        />
+      </div>
+      <div class="nav flex">
+        <a class="fz16 lh12 fw600 mr60 text-green" href="/index.html">首頁</a>
+        <a class="fz16 lh12 fw600 mr60 text-green" href="/product.html">甜點</a>
+        <a class="fz16 lh12 fw600 mr60 text-green" href="/login.html">登入</a>
+        <a href="shoppingcart.html">
+          <img
+            class="shopping-cart-images"
+            src="images/shopping_cart.png"
+            alt="shopping-cart"
+          />
+        </a>
+      </div>
+      <img
+        class="shopping-cart"
+        src="./images/shopping_cart.png"
+        alt="shopping-cart"
+      />
+    </nav>
+    <main class="loginpage-container flex">
+      <div class="loginpage-item1">
+        <div class="loginpage-userinput">
+          <h2 class="fz36 chinese-font">會員登入</h2>
+        </div>
+        <div class="loginpage-weblink-mobile flex">
+          <div class="loginpage-weblink-container flex">
+            <div class="loginpage-weblink-item flex">
+              <img
+                class="facebook-logo"
+                src="./images/ic-facebook-logotype.svg"
+                alt="facebook-logo"
+              />
+            </div>
+            <div class="loginpage-weblink-item flex">
+              <img
+                class="google-logo"
+                src="./images/ic-google.svg"
+                alt="google-logo"
+              />
+            </div>
+            <div class="loginpage-weblink-item flex">
+              <img
+                class="yahoo-logo"
+                src="./images/ic-yahoo.svg"
+                alt="yahoo-logo"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="loginpage-userinput">
+          <div class="flex userlogin-input">
+            <span class="material-icons login-icon"> person </span>
+            <input type="email" placeholder="電子信箱/手機號碼" />
+          </div>
+          <div class="flex userlogin-input">
+            <span class="material-icons login-icon"> vpn_key </span>
+            <input type="email" placeholder="請輸入使用者密碼" />
+          </div>
+          <div class="login-record flex">
+            <input type="checkbox" />
+            <p class="chinese-font fz16">記住我</p>
+          </div>
+        </div>
+        <button class="loginpage-loginbtn">登入帳號</button>
+      </div>
+      <div class="loginpage-item2">
+        <h2 class="fz24 chinese-font">—— 連結社群帳號 ——</h2>
+        <div class="loginplatform-logo flex">
+          <img
+            class="img-facebook"
+            src="./images/ic-facebook-logotype.svg"
+            alt="facebook-logo"
+          />
+        </div>
+        <div class="loginplatform-logo flex">
+          <img
+            class="img-google"
+            src="./images/ic-google.svg"
+            alt="google-logo"
+          />
+        </div>
+
+        <div class="loginplatform-logo flex">
+          <img class="img-yahoo" src="./images/ic-yahoo.svg" alt="yahoo-logo" />
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer1">
+      <section class="footer-subscribe-section bg-green flex">
+        <div class="footer-subscribe-front flex">
+          <img
+            class="footer-subscribe-img mr20"
+            src="./images/logo-light.svg"
+            alt="logo-light"
+          />
+          <p class="chinese-font text-white fz24">訂閱你我的甜蜜郵件</p>
+        </div>
+        <div class="footer-subscribe-back flex">
+          <div class="footer-subscribe-email flex">
+            <img class="mr20" src="./images/mail-24px.png" alt="mail" />
+            <input type="email" name="email" class="footer-subscribe-input" />
+          </div>
+
+          <div class="footer-subscribe-enter flex">
+            <img src="./images/arrow_forward-24px.png" alt="arrow-forward" />
+          </div>
+        </div>
+      </section>
+
+      <!-- footer-section -->
+      <section class="footer-section">
+        <div class="footer-intro-container flex">
+          <div class="footer-intro flex-col">
+            <img src="./images/logotype-lg-dark.svg" alt="logotype-lg-dark" />
+            <div>
+              <p class="fz16 chinese-font text-green">07-1234-5678</p>
+              <p class="fz16 chinese-font text-green lh15">
+                sweetaste@email.com
+              </p>
+              <p class="fz16 chinese-font text-green">
+                800 高雄市新興區幸福路 520 號
+              </p>
+            </div>
+          </div>
+          <div class="footer-intro-img">
+            <img src="./images/sm-今天是個吃甜點的好日子.svg" alt="gooday" />
+          </div>
+        </div>
+
+        <div class="footer-copyright-container flex">
+          <div class="flex">
+            <img class="mr8" src="./images/ic-line@.svg" alt="images-line" />
+            <img src="./images/ic-facebook.svg" alt="images-facebook" />
+          </div>
+          <p class="chinese-font text-green fz16 flex">
+            © 2018 Sweetaste* All Rights Reserved
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,259 @@
+.checkout1-container {
+  padding: 6rem 12.2rem 6.5rem 12.2rem;
+  gap: 2rem;
+  justify-content: space-between;
+  .main-item1 {
+    .shipping-info {
+      box-sizing: border-box;
+      padding: 3rem 4rem;
+      width: 46rem;
+      height: 51.2rem;
+      background-color: #3f5d45;
+      .shipping-title {
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3rem;
+        h2 {
+          height: 5rem;
+        }
+        .shipping-img {
+          gap: 6rem;
+
+          span {
+            width: 2rem;
+            height: 2rem;
+            color: #fff;
+            position: relative;
+          }
+          & :last-child::before {
+            display: none;
+          }
+          & span::before {
+            content: "";
+            position: absolute;
+            bottom: 0.7rem;
+            left: 2.1rem;
+            width: 6rem;
+            height: 1px;
+            background-color: #fff; /* 橫線的顏色 */
+          }
+        }
+      }
+      .shipping-name {
+        margin-bottom: 1.6rem;
+        justify-content: space-between;
+        .shipping-lastname {
+          gap: 0.8rem;
+          .text-container {
+            background-color: #eaf0ed;
+            max-width: 18.6rem;
+            height: 5.6rem;
+            box-sizing: border-box;
+            padding: 1.7rem 2rem;
+            input {
+              background-color: #eaf0ed;
+              border: none;
+              &::placeholder {
+                color: #8da291;
+              }
+            }
+          }
+        }
+      }
+      .shipping-email {
+        gap: 0.8rem;
+        margin-bottom: 1.6rem;
+        .email-container {
+          background-color: #eaf0ed;
+          width: 100%;
+          height: 5.6rem;
+          box-sizing: border-box;
+          padding: 1.7rem 2rem;
+          input {
+            background-color: #eaf0ed;
+            border: none;
+            &::placeholder {
+              color: #8da291;
+            }
+          }
+        }
+      }
+      .shipping-address {
+        gap: 0.8rem;
+        .address-item {
+          justify-content: space-between;
+          .text-container {
+            background-color: #eaf0ed;
+            height: 5.6rem;
+            box-sizing: border-box;
+            padding: 1.7rem 2rem;
+            justify-content: center;
+            max-width: 18.3rem;
+            input {
+              background-color: #eaf0ed;
+              border: none;
+              width: 80%;
+              &::placeholder {
+                color: #8da291;
+              }
+            }
+            .address-img {
+              align-items: center;
+              img {
+                height: 1.8rem;
+              }
+              .rotate-90deg {
+                transform: rotate(90deg);
+              }
+            }
+          }
+        }
+        .address-container {
+          background-color: #eaf0ed;
+          width: 100%;
+          height: 5.6rem;
+          box-sizing: border-box;
+          padding: 1.7rem 2rem;
+          justify-content: center;
+          input {
+            background-color: #eaf0ed;
+            border: none;
+            &::placeholder {
+              color: #8da291;
+            }
+          }
+        }
+      }
+    }
+    .nextstep-btn {
+      box-sizing: border-box;
+      width: 46rem;
+      height: 6.5rem;
+      background-color: #ffe180;
+      justify-content: center;
+      align-items: center;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .main-item2 {
+    .shoppingcart-main-item2 {
+      box-sizing: border-box;
+      background-color: #fff;
+      width: 30rem;
+      height: 20.7rem;
+      .item2-container {
+        p {
+          box-sizing: border-box;
+          padding: 1.6rem 0;
+          text-align: center;
+          background-color: #eaf0ed;
+          font-weight: bold;
+        }
+        .item2-descr {
+          border: 1px solid #eaf0ed;
+          box-sizing: border-box;
+          padding: 1.6rem 2rem;
+          height: 12.8rem;
+          .item2-total {
+            justify-content: space-between;
+            margin-bottom: 0.8rem;
+          }
+          .item2-shippingcost {
+            justify-content: space-between;
+          }
+          .item2-sum {
+            justify-content: space-between;
+            padding: 1.6rem 0;
+          }
+        }
+      }
+    }
+    .shoppingcart-main-item1 {
+      width: 30rem;
+      margin-right: 2rem;
+      .shoppingcart-title {
+        justify-content: center;
+        align-items: center;
+        background-color: #eaf0ed;
+        padding: 1.6rem 0;
+      }
+      .shoppingcart-item-container {
+        border: 1px solid #eaf0ed;
+        padding: 1.6rem 1.8rem;
+        box-sizing: border-box;
+        .shoppingcart-item {
+          gap: 1.8rem;
+          padding-bottom: 1.6rem;
+          &:last-child {
+            padding-bottom: 0rem;
+          }
+          .dessert-img {
+            height: 8rem;
+            aspect-ratio: 1.5/1;
+            object-fit: cover;
+          }
+          .shoppingcart-quantity {
+            justify-content: center;
+            align-items: center;
+            gap: 3.9rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .checkout1-container {
+    padding: 3.6rem 0 0 0;
+    .main-item1 {
+      width: 100%;
+      .shipping-info {
+        padding: 3rem;
+        width: 100%;
+        .shipping-name {
+          .shipping-lastname {
+            max-width: 47%;
+            .text-container {
+              input {
+                width: 100%;
+              }
+            }
+          }
+        }
+        .shipping-email {
+          .email-container {
+            input {
+              width: 100%;
+            }
+          }
+        }
+        .shipping-address {
+          .address-item {
+            .text-container {
+              width: 47%;
+              .address1 {
+                input {
+                  width: 100%;
+                }
+              }
+              .address2 {
+                input {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+      .nextstep-btn {
+        width: 100%;
+      }
+    }
+    .main-item2 {
+      display: none;
+    }
+  }
+}
